@@ -17,6 +17,7 @@
         "visual_user": "",
         "password": ""
     }   
+```
 
 ## Running test
 Run all tests in headless mode.

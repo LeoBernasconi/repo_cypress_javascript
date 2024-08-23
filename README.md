@@ -5,8 +5,9 @@
 -Language: Javascript
 -Testing libraries: Mocha + Chai
 
-## Installation
+## Set up
 1. On the project root --> npm install cypress --save-dev
+2. Complete each field in cypress\fixtures\credentials.json
 
 ## Running test
 1. npx cypress run --> Run all tests in headless mode.

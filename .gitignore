@@ -1,2 +1,3 @@
 node_modules
-cypress\fixtures\credentials.json
+cypress/videos/
+cypress/screenshots/

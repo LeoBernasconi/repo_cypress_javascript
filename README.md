@@ -8,18 +8,21 @@
 ## Set up
 1. On the project root --> npm install cypress --save-dev
 2. Create the file credentials.json in cypress/fixtures/ and set it up:
->    {
->        "standar_user": "",
->        "locked_user": "",
->        "problem_user": "",
->        "error_user": "",
->        "visual_user": "",
->        "password": ""
->    }   
+```json
+    {
+        "standar_user": "",
+        "locked_user": "",
+        "problem_user": "",
+        "error_user": "",
+        "visual_user": "",
+        "password": ""
+    }   
 
 ## Running test
 Run all tests in headless mode.
-'''npx cypress run'''
+```
+npx cypress run
+```
 
 ## Debugging tests
 1. Run "npx cypress open".

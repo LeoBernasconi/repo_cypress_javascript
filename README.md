@@ -25,6 +25,24 @@ Run all tests in headless mode.
 npx cypress run
 ```
 
+Run a specific test spec
+```
+npx cypress run --spec cypress\e2e\{spec_name}.cy.js
+```
+
+Run all tests opening a browser (default).
+```
+npx cypress run --headed
+```
+
+Run all tests opening an specific browser.
+```
+npx cypress run --browser {name_of_the_browser}
+```
+
+
+More info at:  
+
 ## Debugging tests
 1. Run "npx cypress open".
 2. Select "E2E Testing".

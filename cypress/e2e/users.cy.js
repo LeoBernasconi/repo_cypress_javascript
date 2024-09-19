@@ -5,5 +5,10 @@ describe('Users tests', () => {
     it('Create user OK', () =>{
   
     })
+
+    
+    it('Edit user OK', () =>{
+  
+    })
     
 })

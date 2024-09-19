@@ -6,11 +6,6 @@ describe('Users tests', () => {
   
     })
 
-    
-    it('Edit user OK', () =>{
-  
-    })
-
     it('Remove user OK', () =>{
   
     })
